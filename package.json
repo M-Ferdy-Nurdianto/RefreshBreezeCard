@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build-aca && npm run build-channie && npm run build-cissi && npm run build-piya",
+    "build": "npm run build-all && npm run consolidate",
+    "build-all": "npm run build-aca && npm run build-channie && npm run build-cissi && npm run build-piya",
     "build-aca": "cd \"aca card\" && npm install && npm run build",
     "build-channie": "cd \"channie card\" && npm install && npm run build",
     "build-cissi": "cd \"cissi card\" && npm install && npm run build",
-    "build-piya": "cd \"piya card\" && npm install && npm run build"
+    "build-piya": "cd \"piya card\" && npm install && npm run build",
+    "consolidate": "mkdir -p public/images && cp index.html style.css logo.webp public/ && cp \"aca card/public/aca.webp\" \"channie card/public/channie.webp\" \"cissi card/public/cissi.webp\" \"piya card/src/assets/piya.webp\" public/images/ && mkdir -p public/aca-card/dist public/channie-card/dist public/cissi-card/dist public/piya-card/dist && cp -r \"aca card/dist/\"* public/aca-card/dist/ && cp -r \"channie card/dist/\"* public/channie-card/dist/ && cp -r \"cissi card/dist/\"* public/cissi-card/dist/ && cp -r \"piya card/dist/\"* public/piya-card/dist/"
   }
 }
