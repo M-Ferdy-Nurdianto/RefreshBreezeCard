@@ -9,6 +9,6 @@
     "build-channie": "cd \"channie card\" && npm install && npm run build",
     "build-cissi": "cd \"cissi card\" && npm install && npm run build",
     "build-piya": "cd \"piya card\" && npm install && npm run build",
-    "consolidate": "mkdir -p public/images && cp index.html style.css logo.webp public/ && cp \"aca card/public/aca.webp\" \"channie card/public/channie.webp\" \"cissi card/public/cissi.webp\" \"piya card/src/assets/piya.webp\" public/images/ && mkdir -p public/aca-card/dist public/channie-card/dist public/cissi-card/dist public/piya-card/dist && cp -r \"aca card/dist/\"* public/aca-card/dist/ && cp -r \"channie card/dist/\"* public/channie-card/dist/ && cp -r \"cissi card/dist/\"* public/cissi-card/dist/ && cp -r \"piya card/dist/\"* public/piya-card/dist/"
+    "consolidate": "mkdir -p public/images && cp index.html style.css logo.webp public/ && cp \"aca card/public/aca.webp\" \"channie card/public/channie.webp\" \"cissi card/public/cissi.webp\" \"piya card/src/assets/piya.webp\" public/images/ && mkdir -p public/aca-card public/channie-card public/cissi-card public/piya-card && cp -r \"aca card/dist/\"* public/aca-card/ && cp -r \"channie card/dist/\"* public/channie-card/ && cp -r \"cissi card/dist/\"* public/cissi-card/ && cp -r \"piya card/dist/\"* public/piya-card/"
   }
 }
