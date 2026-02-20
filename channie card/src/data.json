@@ -1,0 +1,30 @@
+{
+  "profile": {
+    "name": "CHANNIE",
+    "tagline": "Channie Channie? KAWAIII~~ ✨",
+    "photo": "channie.webp",
+    "logo": "channie.webp"
+  },
+  "links": [
+    { "name": "TikTok", "url": "https://www.tiktok.com/@kawaiizzu?_r=1&_t=ZS-944piv5CwM" },
+    { "name": "Instagram", "url": "https://www.instagram.com/zzuchannie?igsh=MWNwNmp4ZXpoanc3Yw==" },
+    { "name": "WA Channel", "url": "https://whatsapp.com/channel/0029ValsnHP7tkj9aOA12L29" },
+    { "name": "Twitter / X", "url": "https://x.com/bawputgoreng" }
+  ],
+  "about": {
+    "bio": [
+      "✨✨ Hi kids, gweh Channie. Channie Channie? KAWAIII~~🗣️",
+      "Walaupun brandingannya kawaii aku suka banget sama hal-hal yang dark, yang berbau horror dan darah-darah. Suka banget nonton analog horror, game horror, dan internet mysteries lainnya. �️🩸",
+      "Aku anak sastra btw, tapi dibanding novel aku lebih suka bahas film. Filmmaker favorit aku Koji Shiraishi. 📚🎥",
+      "Aku suka banget nge-dance, udah belajar dari umur 10 tahun. Dance style favorit aku jazz! Aku juga hobi bikin hairstyle yang lucu-lucu tiap hari. 🩰💃💇🏻‍♀️",
+      "Suka makan dan masak banget, eksperimen di dapur (walau sering gagal). Suka ikan, tahu, dan kari. Minuman favorit: es kopi, matcha, jus stroberi, milo. 🐟☕",
+      "Punya 6 kucing! Anime kesukaan Aikatsu (fans garis keras!). Aku juga suka grup kpop nugu, apalagi girl group. �🐈",
+      "Fun fact: aku introvert banget di real life, energi gampang habis. Kalo abis ketemu orang banyak pasti hibernasi lama banget. �🛏️"
+    ],
+    "decoration": "✨"
+  },
+  "app": {
+    "footerQuote": "\"Channie Channie? KAWAIII~~ 🗣️ Walaupun kawaii, aku cinta horror dan darah-darah. Sastra, dance, masak, dan Aikatsu adalah duniaku!\"",
+    "runningText": "CHANNIE ♡ KAWAII ♡ DANCE ♡ "
+  }
+}

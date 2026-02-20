@@ -1,0 +1,29 @@
+{
+  "profile": {
+    "name": "CISSI",
+    "tagline": "Si Cheesy & Butterfly 🧀🦋",
+    "photo": "cissi.webp",
+    "logo": "cissi.webp"
+  },
+  "links": [
+    { "name": "TikTok", "url": "https://www.tiktok.com/@bakedciz?_r=1&_t=ZS-944g5FdV1HR" },
+    { "name": "Instagram", "url": "https://www.instagram.com/bakedciz?igsh=MTVoaG11ZnppZm93Nw==" },
+    { "name": "WA Channel", "url": "https://whatsapp.com/channel/0029VadiOUzBqbrCXmnlSv0C" },
+    { "name": "Twitter / X", "url": "https://x.com/kejuracing" }
+  ],
+  "about": {
+    "bio": [
+      "HAI HAI HELOO! Aku CISSI si CHEESY 🧀",
+      "Aku biasanya di kenal sebagai si keju dan kupu-kupu 🧀🦋. Aku suka keju dan coklat, tapi jajanan apa aja nomnom 😋❗️",
+      "Aku anaknya pemalu buat kenalan dulu, tapi kalau udah kenal dan dekat jangan heran kalau aku aslinya aneh dan j4m3t yaa. Aku suka ngejokes tapi sering garing huft.",
+      "Hobi aku ngedance! Tapi top 3 hobi ku tidur, scroll sosmed, dan jajan :3. Aku seneng banget koleksi keychain yang rame itu! Aku suka tas ranselku bunyi rame!",
+      "Funfact!! Sebenernya aku takut kupu-kupu tapi dikenal as kupu-kupu 🦋",
+      "Aku akan terus berusaha bikin semua senyum dan bahagia lewat CISSI🦋‼️"
+    ],
+    "decoration": "🦋"
+  },
+  "app": {
+    "footerQuote": "\"Ay ay ay i'm your little butterfly. Senyumku meleleh seperti keju, bikin semuanya jadi cheesy. Halo halo semuanya aku Cissi\"",
+    "runningText": "CISSI ♡ CHEESY ♡ BUTTERFLY ♡ KEJURACING ♡ "
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "profile": {
+    "name": "ACAA",
+    "tagline": "Anomali Biru 💙",
+    "photo": "aca.webp",
+    "logo": "aca.webp"
+  },
+  "links": [
+    { "name": "Instagram", "url": "https://www.instagram.com/caafoxy?igsh=MTJ3ZHU1c3R4b3R0Nw==" },
+    { "name": "TikTok", "url": "https://www.tiktok.com/@caafoxy?_r=1&_t=ZS-944cdQQzuKW" },
+    { "name": "WA Channel", "url": "https://whatsapp.com/channel/0029ValLq5FBfxnxwVTuwn2b" },
+    { "name": "Twitter / X", "url": "https://x.com/Acaangcimen" }
+  ],
+  "about": {
+    "bio": [
+      "orang-orang biasa mengenalku dengan \"mbak2 biru\" tapi ngga jarang ada yang manggil anomali biru 🤔 mungkin karna sifatku yang gabisa diem dan selalu punya sejuta ide random di pikiranku.",
+      "Aku pecinta kucing garis keras 🐾, penggemar matcha juga 🍵 (lebih ke menu aman aja sih pas lagi mager nyoba2) dan hobi banget eksplor tempat makan. Dari jajanan lucu sampai makanan berat, semuanya wajib dicoba minimal sekali.",
+      "Selain itu aku juga suka baca buku 📚—kadang tenggelam di dunia cerita berjam-jam.",
+      "Aku tertarik sama alat musik juga, entah kenapa rasanya magis banget tiap dengar nada yang hidup 🎶",
+      "jangan kaget ya kalau energi ku kedengeran sampe ujung ruangan, Intinya, aku cuma mau jadi Acaa yang apa adanya—rame, cerah, dan nggak setengah-setengah 💙✨"
+    ],
+    "decoration": "🐱"
+  },
+  "app": {
+    "footerQuote": "\"Citcitcitcuit dengarlah kicauanku yang akan meramaikan hatimu. Halo semua, salam kenal aku ca ca ca ca ca Acaa.\"",
+    "runningText": "ACAA ♡ BLUE ♡ GANGSTER BIKIN GEMETER ♡ "
+  }
+}
