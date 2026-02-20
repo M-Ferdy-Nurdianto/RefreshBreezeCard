@@ -9,7 +9,7 @@
     "build-channie": "cd \"channie card\" && npm install && npm run build",
     "build-cissi": "cd \"cissi card\" && npm install && npm run build",
     "build-piya": "cd \"piya card\" && npm install && npm run build",
-    "consolidate": "shx rm -rf public && shx mkdir -p public/aca-card public/channie-card public/cissi-card public/piya-card && shx cp index.html style.css logo.webp public/ && shx cp -r \"aca card/dist/\"* public/aca-card/ && shx cp -r \"channie card/dist/\"* public/channie-card/ && shx cp -r \"cissi card/dist/\"* public/cissi-card/ && shx cp -r \"piya card/dist/\"* public/piya-card/"
+    "consolidate": "shx rm -rf public && shx mkdir -p public/aca public/channie public/cissi public/piya && shx cp index.html style.css logo.webp public/ && shx cp -r \"aca card/dist/\"* public/aca/ && shx cp -r \"channie card/dist/\"* public/channie/ && shx cp -r \"cissi card/dist/\"* public/cissi/ && shx cp -r \"piya card/dist/\"* public/piya/"
   },
   "devDependencies": {
     "shx": "^0.4.0"
