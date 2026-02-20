@@ -2,5 +2,53 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "redirects": [
+    {
+      "source": "/aca-card",
+      "destination": "/aca",
+      "permanent": true
+    },
+    {
+      "source": "/aca-card/(.*)",
+      "destination": "/aca/$1",
+      "permanent": true
+    },
+    {
+      "source": "/channie-card",
+      "destination": "/channie",
+      "permanent": true
+    },
+    {
+      "source": "/channie-card/(.*)",
+      "destination": "/channie/$1",
+      "permanent": true
+    },
+    {
+      "source": "/cissi-card",
+      "destination": "/cissi",
+      "permanent": true
+    },
+    {
+      "source": "/cissi-card/(.*)",
+      "destination": "/cissi/$1",
+      "permanent": true
+    },
+    {
+      "source": "/piya-card",
+      "destination": "/piya",
+      "permanent": true
+    },
+    {
+      "source": "/piya-card/(.*)",
+      "destination": "/piya/$1",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/favicon.ico",
+      "destination": "/logo.webp"
+    }
+  ]
 }
