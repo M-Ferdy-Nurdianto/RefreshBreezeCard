@@ -1,0 +1,12 @@
+{
+  "name": "rb-card-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build-aca && npm run build-channie && npm run build-cissi && npm run build-piya",
+    "build-aca": "cd \"aca card\" && npm install && npm run build",
+    "build-channie": "cd \"channie card\" && npm install && npm run build",
+    "build-cissi": "cd \"cissi card\" && npm install && npm run build",
+    "build-piya": "cd \"piya card\" && npm install && npm run build"
+  }
+}
