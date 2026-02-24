@@ -43,6 +43,16 @@
       "source": "/piya-card/(.*)",
       "destination": "/piya/$1",
       "permanent": true
+    },
+    {
+      "source": "/cally-card",
+      "destination": "/cally",
+      "permanent": true
+    },
+    {
+      "source": "/cally-card/(.*)",
+      "destination": "/cally/$1",
+      "permanent": true
     }
   ],
   "rewrites": [

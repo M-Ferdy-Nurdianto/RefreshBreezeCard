@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import Background from './components/Background';
-import RetroWindow from './components/RetroWindow';
-import Links from './components/Links';
-import About from './components/About';
-import IPhoneMockup from './components/iPhoneMockup';
-import profileImg from './assets/cissi.webp';
-import data from './data.json';
+import React, { useState, useEffect } from "react";
+import Background from "./components/Background";
+import RetroWindow from "./components/RetroWindow";
+import Links from "./components/Links";
+import About from "./components/About";
+import IPhoneMockup from "./components/iPhoneMockup";
+import profileImg from "./assets/cally.webp";
+import data from "./data.json";
 
 function App() {
-  const [view, setView] = useState('home');
+  const [view, setView] = useState("home");
   const { profile, app } = data;
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function App() {
       <Background />
       <IPhoneMockup>
         <RetroWindow>
-          {view === 'home' ? (
+          {view === "home" ? (
             <div className="home-links">
               <div className="home-profile">
                 <div className="home-profile-img">
@@ -30,23 +30,20 @@ function App() {
                 <p className="home-tagline">{profile.tagline}</p>
               </div>
 
-              <button 
-                onClick={() => setView('about')}
+              <button
+                onClick={() => setView("about")}
                 className="about-sticker"
               >
-                👑 About Me
+                🪼 About Me
               </button>
               <Links />
-              <p className="footer-quote">
-                {app.footerQuote}
-              </p>
+              <p className="footer-quote">{app.footerQuote}</p>
             </div>
           ) : (
-            <About onBack={() => setView('home')} />
+            <About onBack={() => setView("home")} />
           )}
         </RetroWindow>
       </IPhoneMockup>
-
 
       <style jsx>{`
         .home-links {
@@ -55,7 +52,7 @@ function App() {
           align-items: center;
           width: 100%;
         }
-        
+
         /* Home Profile Styles */
         .home-profile {
           display: flex;
@@ -76,10 +73,12 @@ function App() {
           width: 100%;
           height: 100%;
           object-fit: contain; /* Ensure full image is visible */
-          transform: scale(1.2); /* Slight scale up if it looks too small in contain mode */
+          transform: scale(
+            1.2
+          ); /* Slight scale up if it looks too small in contain mode */
         }
         .home-name {
-          font-family: 'Gaegu', cursive;
+          font-family: "Gaegu", cursive;
           font-size: 1.8rem;
           font-weight: 800;
           color: var(--text-main);
@@ -88,7 +87,7 @@ function App() {
           line-height: 1;
         }
         .home-tagline {
-          font-family: 'Quicksand', sans-serif;
+          font-family: "Quicksand", sans-serif;
           font-size: 0.9rem;
           color: var(--text-main);
           font-weight: 600;
@@ -109,12 +108,12 @@ function App() {
           transition: all 0.2s;
           display: inline-block;
           box-shadow: 4px 4px 0px var(--primary-green);
-          font-family: 'Gaegu', cursive;
+          font-family: "Gaegu", cursive;
           width: 90%;
           text-align: center;
         }
         .about-sticker:hover {
-          background: #D4E1EE; 
+          background: #d4e1ee;
           transform: scale(1.02) rotate(-1deg);
           box-shadow: 5px 5px 0px var(--primary-green);
         }
