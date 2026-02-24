@@ -132,14 +132,15 @@ const About = ({ onBack }) => {
         }
 
         .bio-card {
-           background: rgba(255, 255, 255, 0.8);
-           padding: 1rem;
-           border-radius: 15px;
-           border: 2px dashed var(--primary-green);
+           background: rgba(255, 255, 255, 0.95);
+           padding: 1.2rem;
+           border-radius: 20px;
+           border: 3px solid var(--primary-green);
            width: 95%;
            text-align: center;
-           font-size: 0.9rem;
-           line-height: 1.5;
+           font-size: 0.95rem;
+           line-height: 1.6;
+           box-shadow: 4px 4px 0px rgba(142, 199, 192, 0.3);
         }
 
         .bio-content p {

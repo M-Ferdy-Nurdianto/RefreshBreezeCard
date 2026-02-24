@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Quicksand:wght@400;700&display=swap");
 
 :root {
-  --primary-green: #8EC7C0; /* Frostbite */
-  --bg-nature: #A7C3E2;    /* Blue Frost */
-  --text-main: #242D3D;      /* Darker tone for better contrast */
-  --marquee-color: rgba(142, 199, 192, 0.2);
+  --primary-green: #8ec7c0; /* Frostbite */
+  --bg-nature: #a7c3e2; /* Blue Frost */
+  --text-main: #242d3d; /* Darker tone for better contrast */
+  --marquee-color: rgba(142, 199, 192, 0.4);
   --speed-multiplier: 12;
 }
 
@@ -15,8 +15,8 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #FFFFFF;
+  font-family: "Quicksand", sans-serif;
+  background-color: #ffffff;
   color: var(--text-main);
   overflow: hidden;
   height: 100vh;
@@ -26,13 +26,21 @@ body {
 
 /* Base Marquee Animation */
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 @keyframes marqueeReverse {
-  0% { transform: translateX(-50%); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .marquee-container {
@@ -55,7 +63,7 @@ body {
   font-size: 8rem;
   font-weight: 900;
   color: var(--marquee-color);
-  font-family: 'Gaegu', cursive;
+  font-family: "Gaegu", cursive;
   line-height: 1;
 }
 
@@ -84,8 +92,6 @@ body {
   max-width: 400px;
   text-align: center;
 }
-
-
 
 .w-full {
   width: 100%;
