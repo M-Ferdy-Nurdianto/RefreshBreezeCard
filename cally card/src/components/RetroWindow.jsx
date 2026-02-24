@@ -42,7 +42,7 @@ const RetroWindow = ({ children }) => {
           display: flex;
           flex-direction: column;
           justify-content: space-around;
-          opacity: 0.1;
+          opacity: 0.15;
           pointer-events: none;
           transform: rotate(15deg);
         }
