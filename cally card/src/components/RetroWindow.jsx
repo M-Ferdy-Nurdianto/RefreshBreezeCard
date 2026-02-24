@@ -53,6 +53,12 @@ const RetroWindow = ({ children }) => {
           font-weight: 800;
           color: var(--primary-green);
           display: flex;
+          -webkit-text-stroke: 1.5px white;
+          text-shadow: 
+            1px 1px 0 #fff,
+            -1px 1px 0 #fff,
+            1px -1px 0 #fff,
+            -1px -1px 0 #fff;
         }
         .marquee-content {
           display: inline-block;
