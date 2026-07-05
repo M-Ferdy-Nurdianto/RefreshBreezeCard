@@ -1,0 +1,25 @@
+{
+  "profile": {
+    "name": "RARA",
+    "tagline": "happy virus yang akan membuat kalian semua bahagia! 🎸",
+    "photo": "rara.webp",
+    "logo": "rara.webp"
+  },
+  "links": [
+    { "name": "Instagram", "url": "https://www.instagram.com/aranielys___?igsh=MWF2bWZlZnM5cGhxbA==" },
+    { "name": "TikTok", "url": "https://www.tiktok.com/@aranielys_?_r=1&_t=ZS-97m5ZKkcpJw" },
+    { "name": "WA Channel", "url": "https://whatsapp.com/channel/0029VbC5tT18kyyLm7AwyL0r" }
+  ],
+  "about": {
+    "bio": [
+      "hai hai teman teman, aku rara! MBTI ku ESFJ, aku suka sama perintilan perintilan lucu, kayak ganci, pin, riasan rambut, aku suka banget menyanyi!",
+      "dari kecil aku udah sering nyanyi di pentas pentas seni, kalau senggang dan ga ada kegiatan, aku biasanya DIY barang, bahkan bisa sampe aku jual hehe, lumayan gasi?",
+      "oh iya aku suka banget jajan! mochi, ice cream, cireng, rasanya mau aku beli semua, dan pastinya aku sukaaa banget sama k-pop, aku kagum dengan vokal dan dance mereka, jadi tolong dukung aku terus ya agar bisa menjadi sehebat mereka! see u on stage‼️🎸"
+    ],
+    "decoration": "🎸"
+  },
+  "app": {
+    "footerQuote": "\"happy virus yang akan membuat kalian semua bahagia!\"",
+    "runningText": "RARA ♡ HAPPY VIRUS ♡ "
+  }
+}
